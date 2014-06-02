@@ -1,0 +1,115 @@
+/* Documento de estilos da página playlist.php */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #5bbcc9;
+    color: #000000;
+    font-family: 'lucida grande',tahoma,verdana,arial,sans-serif;
+    font-size: 14px;
+    line-height: 135%;
+    width:100%;
+}
+
+.wrapper {
+    border: 5px solid #A7DBD7;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+    width: 900px;
+}
+
+.subwrapper{
+    border: 5px solid #E7E9DC;
+}
+
+.content {
+    text-align: justify;
+    margin: 5px;
+    padding: 50px;
+    border: 1px solid #E7E9DC;
+    line-height: 22px;
+}
+
+ol{
+    margin-left: 15px;
+}
+
+h1{
+    color:#FA6900;
+    font-family: "Trebuchet MS",Arial,Helvetica,sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 18px;
+    margin: 33px 0px 3px 0px;
+    text-align: center;
+}
+
+
+h3{
+    font-size: 17px;
+    margin: 25px 0 10px;
+}
+
+a{
+    color: #FA6900;
+    font-weight: bold;
+}
+
+a:hover{
+    color:#492C26;
+}
+
+iframe{
+    margin: 20px 60px;
+}
+
+.button{
+   border: 1px solid #96c5c2;
+   background: #96c5c2;
+   background: -webkit-gradient(linear, left top, left bottom, from(#a7dbd8), to(#96c5c2));
+   background: -webkit-linear-gradient(top, #a7dbd8, #96c5c2);
+   background: -moz-linear-gradient(top, #a7dbd8, #96c5c2);
+   background: -ms-linear-gradient(top, #a7dbd8, #96c5c2);
+   background: -o-linear-gradient(top, #a7dbd8, #96c5c2);
+   padding: 4px 6px;
+   -webkit-border-radius: 2px;
+   -moz-border-radius: 2px;
+   border-radius: 2px;
+   color: #492c26;
+   font-size: 14px;
+   font-weight: bold;
+   vertical-align: middle;
+}
+
+.button:hover {
+   border-top-color: #69d2e7;
+   background: #69d2e7;
+   color: #492c26;
+   cursor:pointer;
+   }
+.button:active {
+   border-top-color: #69d2e7;
+   background: #69d2e7;
+   }
+
+.searchField{
+    width:200px;
+}
+
+.checkbox{
+  margin: 5px 10px;
+  font-weight: bold;
+}
+
+.playlist{
+  margin: 10px 0px;
+}
